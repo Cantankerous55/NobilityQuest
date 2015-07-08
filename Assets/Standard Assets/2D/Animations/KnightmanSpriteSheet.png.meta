@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: caa44cfc65ab143febb635e4529d006f
+timeCreated: 1436143799
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnightmanSpriteSheet_0
+    21300002: KnightmanSpriteSheet_1
+    21300004: KnightmanSpriteSheet_2
+    21300006: KnightmanSpriteSheet_3
+    21300008: KnightmanSpriteSheet_4
+    21300010: KnightmanSpriteSheet_5
+    21300012: KnightmanSpriteSheet_6
+    21300014: KnightmanSpriteSheet_7
+    21300016: KnightmanSpriteSheet_8
+    21300018: KnightmanSpriteSheet_9
+    21300020: KnightmanSpriteSheet_10
+    21300022: KnightmanSpriteSheet_11
+    21300024: KnightmanSpriteSheet_12
+    21300026: KnightmanSpriteSheet_13
+    21300028: KnightmanSpriteSheet_14
+    21300030: KnightmanSpriteSheet_15
+    21300032: KnightmanSpriteSheet_16
+    21300034: KnightmanSpriteSheet_17
+    21300036: KnightmanSpriteSheet_18
+    21300038: KnightmanSpriteSheet_19
+    21300040: KnightmanSpriteSheet_20
+    21300042: KnightmanSpriteSheet_21
+    21300044: KnightmanSpriteSheet_22
+    21300046: KnightmanSpriteSheet_23
+    21300048: KnightmanSpriteSheet_24
+    21300050: KnightmanSpriteSheet_25
+    21300052: KnightmanSpriteSheet_26
+    21300054: KnightmanSpriteSheet_27
+    21300056: KnightmanSpriteSheet_28
+    21300058: KnightmanSpriteSheet_29
+    21300060: KnightmanSpriteSheet_30
+    21300062: KnightmanSpriteSheet_31
+    21300064: KnightmanSpriteSheet_32
+    21300066: KnightmanSpriteSheet_33
+    21300068: KnightmanSpriteSheet_34
+    21300070: KnightmanSpriteSheet_35
+    21300072: KnightmanSpriteSheet_36
+    21300074: KnightmanSpriteSheet_37
+    21300076: KnightmanSpriteSheet_38
+    21300078: KnightmanSpriteSheet_39
+    21300080: KnightmanSpriteSheet_40
+    21300082: KnightmanSpriteSheet_41
+    21300084: KnightmanSpriteSheet_42
+    21300086: KnightmanSpriteSheet_43
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightmanSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 153
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 155
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 155
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 156
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 109
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 109
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 110
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 110
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 109
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 110
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 108
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 110
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 106
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 110
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 109
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 65
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KnightmanSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 20
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
