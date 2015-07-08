@@ -1,12 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WillmotAttack2 : MonoBehaviour {
-
-	public bool canAttack;
+public class WillmotAttack2 : MonoBehaviour 
+{
+	private Animator m_animator;
+	private bool canKill;
 	public Transform lineStart, lineEnd;
 
 	RaycastHit2D whatIHit;
+
+	void Start()
+	{
+		m_animator = GetComponent<Animator> ();
+	}
 
 	// Update is called once per frame
 	void Update () {
@@ -19,20 +25,24 @@ public class WillmotAttack2 : MonoBehaviour {
 		Debug.DrawLine (lineStart.position, lineEnd.position, Color.red);
 
 		if (Physics2D.Linecast (lineStart.position, lineEnd.position, 1 << LayerMask.NameToLayer("Enemy") ) ) 
-		    {
-
+	    {
 			whatIHit = (Physics2D.Linecast (lineStart.position, lineEnd.position, 1 << LayerMask.NameToLayer("Enemy"))); 
-			canAttack = true;
-			Debug.Log ("I can attack.");
-
+			canKill = true;
+			Debug.Log ("I can Kill " + whatIHit.transform.name);
 		}
 		else 
 		{
-			canAttack = false;
-			Debug.Log ("Can't Attack.");
+			canKill = false;
+			Debug.Log ("Can't kill anything.");
 		}
-		if (Input.GetKeyDown(KeyCode.Z) && canAttack == true) {
-			Destroy (whatIHit.collider.gameObject);
+
+		if (Input.GetKeyDown (KeyCode.Z))
+	    {
+			m_animator.Play ("WillmotAttack");
+			if(canKill)
+			{
+				Destroy (whatIHit.collider.gameObject);
+			}
 		}
 	}
 }
