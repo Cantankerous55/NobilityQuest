@@ -25,6 +25,10 @@ public class PortalBehaviour : MonoBehaviour
 			player.transform.position = new Vector2(targetPosition.x + offset, targetPosition.y);
 			playerMovement.CanTeleport = false;
 		}
+
+		else {other.gameObject.transform.position = new Vector2 (targetPosition.x + offset, targetPosition.y);
+		}
+		                                                        
 	}
 
 	void OnTriggerExit2D (Collider2D other)

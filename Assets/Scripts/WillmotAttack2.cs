@@ -1,17 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent( typeof (Animator))]
 public class WillmotAttack2 : MonoBehaviour 
 {
 	private Animator m_animator;
+	private Animator m_droidDeath;
 	private bool canKill;
 	public Transform lineStart, lineEnd;
+	private bool isAnimating;
+	private Animation death;
+	public Particle deathanim;
+	private bool isDying;
+	public float deathWaitTime;
 
 	RaycastHit2D whatIHit;
 
 	void Start()
 	{
 		m_animator = GetComponent<Animator> ();
+		isDying = false;
 	}
 
 	// Update is called once per frame
@@ -39,10 +47,27 @@ public class WillmotAttack2 : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.Z))
 	    {
 			m_animator.Play ("WillmotAttack");
-			if(canKill)
+			if(canKill && whatIHit.collider.gameObject.name == "RatDroid")
 			{
-				Destroy (whatIHit.collider.gameObject);
+				m_droidDeath = whatIHit.collider.gameObject.GetComponent<Animator> ();
+				m_droidDeath.Play ("droidDeath");
+				//isDying = true;
+				//m_droidDeath.SetBool ("isDying", isDying);
+
+				//StartCoroutine(DeathWait());
+				Destroy (whatIHit.collider.gameObject, deathWaitTime);
+
+			}
+
+			if(canKill) 
+			{
+				Destroy(whatIHit.collider.gameObject);
+			}
+
 			}
 		}
+		//IEnumerator DeathWait () {
+		//yield return new WaitForSeconds (4f);
 	}
-}
+//}
+
