@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 981ee90aeb9e8474eb33d05481aeaa5f
-timeCreated: 1436482833
+guid: 679dbcedcbf7d4d3b8a0e6fb66d6e351
+timeCreated: 1436512403
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,7 +16,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -52,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 25
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -61,92 +61,92 @@ TextureImporter:
     - name: slugger_move_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 54
-        width: 24
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: slugger_move_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 54
-        width: 23
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: slugger_move_2
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 54
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: slugger_move_3
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 54
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: slugger_move_4
-      rect:
-        serializedVersion: 2
-        x: 142
+        x: 13
         y: 54
         width: 21
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slugger_move_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 54
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slugger_move_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 54
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: .5, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slugger_move_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 54
+        width: 23
+        height: 35
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: slugger_move_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 54
+        width: 24
+        height: 38
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: slugger_move_5
       rect:
         serializedVersion: 2
-        x: 9
+        x: 15
         y: 7
-        width: 24
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: .5, y: .400000006}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: slugger_move_6
       rect:
         serializedVersion: 2
-        x: 57
+        x: 50
         y: 7
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: .5, y: .469999999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: slugger_move_7
       rect:
         serializedVersion: 2
-        x: 99
+        x: 93
         y: 7
-        width: 27
-        height: 34
+        width: 26
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: slugger_move_8
       rect:
         serializedVersion: 2
-        x: 130
+        x: 143
         y: 7
-        width: 31
-        height: 37
+        width: 24
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

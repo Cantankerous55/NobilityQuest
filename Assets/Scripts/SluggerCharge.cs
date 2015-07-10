@@ -29,6 +29,7 @@ public class SluggerCharge : MonoBehaviour {
 		targetPosition = new Vector2 (rightWall.transform.position.x, rightWall.transform.position.y);
 		leftWallPosition = new Vector2 (leftWall.transform.position.x, leftWall.transform.position.y);
 		rightWallPosition = new Vector2 (rightWall.transform.position.x, rightWall.transform.position.y);
+
 	}
 	
 
@@ -65,7 +66,8 @@ public class SluggerCharge : MonoBehaviour {
 //			}
 
 			if (gameObject.transform.position.x >= rightWallPosition.x || gameObject.transform.position.x <= leftWallPosition.x){
-				movementSpeed = -movementSpeed;
+				//movementSpeed = -movementSpeed;
+				this.gameObject.transform.Rotate (0,180,0);
 			}
 			gameObject.transform.Translate (movementSpeed, 0f, 0f);
 		}
