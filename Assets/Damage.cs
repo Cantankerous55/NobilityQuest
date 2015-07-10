@@ -36,7 +36,7 @@ public class Damage : MonoBehaviour {
 			this.gameObject.transform.position = new Vector2 (respawnPosition.x, respawnPosition.y);
 			canTakeDamage = false;
 
-		if (new Vector2 (this.gameObject.transform.position.x, this.gameObject.transform.position.y) == new Vector2 (respawnPosition.x, respawnPosition.y));
+		if (Vector2.Distance(transform.position, respawnPosition) < 0.1f);
 				{
 				canTakeDamage = true;
 				}
@@ -66,6 +66,7 @@ public class Damage : MonoBehaviour {
 		if (playerLives == 0) 
 		{
 			GameObject.Find ("Lives1").gameObject.SetActive(false);
+			Application.LoadLevel(Application.loadedLevelName);
 		}
 	}
 

@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: d2bd1f346666d4b5b9a94d7383718db5
+timeCreated: 1436463531
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wilmot_attack 3_0
+    21300002: wilmot_attack 3_1
+    21300004: wilmot_attack 3_2
+    21300006: wilmot_attack 3_3
+    21300008: wilmot_attack 3_4
+    21300010: wilmot_attack 3_5
+    21300012: wilmot_attack 3_6
+    21300014: wilmot_attack 3_7
+    21300016: wilmot_attack 3_8
+    21300018: wilmot_attack 3_9
+    21300020: wilmot_attack 3_10
+    21300022: wilmot_attack 3_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: wilmot_attack 3_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 87
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 87
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 87
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 79
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 45
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 45
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 45
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 45
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 45
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 11
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wilmot_attack 3_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 11
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

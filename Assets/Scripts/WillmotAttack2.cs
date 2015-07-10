@@ -13,6 +13,8 @@ public class WillmotAttack2 : MonoBehaviour
 	public Particle deathanim;
 	private bool isDying;
 	public float deathWaitTime;
+	public GameObject DeathAnim;
+	//bool hasStartedDeath = false;
 
 	RaycastHit2D whatIHit;
 
@@ -20,6 +22,7 @@ public class WillmotAttack2 : MonoBehaviour
 	{
 		m_animator = GetComponent<Animator> ();
 		isDying = false;
+		DeathAnim = GameObject.Find ("Death Anim") ;
 	}
 
 	// Update is called once per frame
@@ -44,30 +47,44 @@ public class WillmotAttack2 : MonoBehaviour
 			Debug.Log ("Can't kill anything.");
 		}
 
-		if (Input.GetKeyDown (KeyCode.Z))
-	    {
+		if (Input.GetKeyDown (KeyCode.Z)) {
 			m_animator.Play ("WillmotAttack");
-			if(canKill && whatIHit.collider.gameObject.name == "RatDroid")
-			{
-				m_droidDeath = whatIHit.collider.gameObject.GetComponent<Animator> ();
-				m_droidDeath.Play ("droidDeath");
+			if (canKill) {
+				Destroy (whatIHit.collider.gameObject);
+				//m_droidDeath = whatIHit.collider.gameObject.GetComponent<Animator> ();
+				//m_droidDeath.Play ("droidDeath");
 				//isDying = true;
 				//m_droidDeath.SetBool ("isDying", isDying);
 
-				//StartCoroutine(DeathWait());
-				Destroy (whatIHit.collider.gameObject, deathWaitTime);
+				//Instantiate ( DeathAnim, new Vector3 (whatIHit.collider.gameObject.transform.position.x, whatIHit.transform.position.y, whatIHit.transform.position.z), (whatIHit.collider.gameObject.transform.rotation));
 
-			}
 
-			if(canKill) 
-			{
-				Destroy(whatIHit.collider.gameObject);
-			}
+
+
+				/*if (hasStartedDeath = false) 
+				{
+					//whatIHit.collider.gameObject.GetComponent<Animator>().SetTrigger("DeathAnimation");
+					//StartCoroutine(DeathWait(whatIHit.collider.gameObject));
+				}
+
+			} else {
+				if (canKill) {
+					Destroy (whatIHit.collider.gameObject);
+				}
 
 			}
 		}
-		//IEnumerator DeathWait () {
-		//yield return new WaitForSeconds (4f);
 	}
-//}
+		IEnumerator DeathWait (GameObject objectToDestroy) 
+		{
+			hasStartedDeath = true;
+			yield return new WaitForSeconds (1f);
+			Destroy (objectToDestroy.gameObject);
+			StopCoroutine ("DeathWait");
+		}*/
+}
 
+		}
+
+	}
+}

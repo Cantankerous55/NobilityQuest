@@ -30,6 +30,6 @@ public class EnemyBullets : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myRigid.velocity = new Vector2 (speed, myRigid.velocity.y);
-		//Destroy (this.gameObject, lifetime);
+		Destroy (this.gameObject, lifetime);
 	}
 }
