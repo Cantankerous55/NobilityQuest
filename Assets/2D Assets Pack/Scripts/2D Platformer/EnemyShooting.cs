@@ -18,6 +18,7 @@ public class EnemyShooting : MonoBehaviour {
 	
 	public GameObject leftWall;
 	public GameObject rightWall;
+
 	
 	private Vector2 targetPosition;
 	private Vector2 leftWallPosition;
@@ -35,6 +36,8 @@ public class EnemyShooting : MonoBehaviour {
 	void Update () 
 	{
 		MovementType ();
+		transform.LookAt (player.transform.position);
+
 	}
 	
 	void MovementType()
@@ -49,7 +52,8 @@ public class EnemyShooting : MonoBehaviour {
 
 			
 			if (gameObject.transform.position.x >= rightWallPosition.x || gameObject.transform.position.x <= leftWallPosition.x){
-				movementSpeed = -movementSpeed;
+			//movementSpeed;
+			this.gameObject.transform.Rotate (0,180,0);
 			}
 			gameObject.transform.Translate (movementSpeed, 0f, 0f);
 		}
